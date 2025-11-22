@@ -10,5 +10,11 @@
         "url": "https://preview.grizz1e.com",
         "icon": "📸",
         "description": "Check your look."
+    },
+    {
+        "title": "Speed Test",
+        "url": "https://speed.grizz1e.com",
+        "icon": "🚀",
+        "description": "Test your internet speed."
     }
 ]
