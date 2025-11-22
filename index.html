@@ -1,118 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello! I'm grizz1e and I code.">
-    <meta name="keywords"
-        content="himal, discord bot, grizflix, grizz1e, discord, github, coding, ai art, movies, shows, anime, watch, ai">
-    <meta name="author" content="Grizz1e">
-    <meta data-react-helmet="true" property="og:image" content="https://grizz1e.com/assets/banner.png">
-    <meta data-react-helmet="true" property="twitter:image" content="https://grizz1e.com/assets/banner.png">
-    <meta property="og:image:width" content="1920">
-    <meta property="og:image:height" content="919">
-    <meta property="og:title" content="Grizz1e">
-    <meta property="og:description"
-        content="Hi, I'm Grizz1e and I like to code. I created Lofi radio bot on Discord, multipurpose bot on Guilded and THIS website">
-    <meta property="og:url" content="https://grizz1e.com">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Grizz1e">
-    <meta property="og:locale" content="en_US">
-    <link rel="icon" type="image/png" href="/assets/logo.png">
-    <title>Grizz1e | He/Him</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        body,
-        html {
-            height: 100%
-        }
-
-        #particles-js canvas {
-            display: block;
-            -webkit-transform: scale(1);
-            -ms-transform: scale(1);
-            transform: scale(1);
-            opacity: 1;
-            -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-            transition: opacity .8s ease, transform 1.4s ease
-        }
-
-        #particles-js {
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            z-index: -1;
-            top: 0;
-            left: 0
-        }
-    </style>
+    <title>Grizz1e's Comic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="particles-js"></div>
-    <div class="hero-container">
-        <h1 class="title">I want some</h1>
-        <section class="splide" aria-label="Splide Basic HTML Example">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide">
-                        <h1 class="word-head"><a href="/shows" class="word">Shows</a></h1>
-                    </li>
-                    <li class="splide__slide">
-                        <h1 class="word-head"><a href="/ai" class="word">AI</a></h1>
-                    </li>
-                    <li class="splide__slide">
-                        <h1 class="word-head"><a href="/games" class="word">Games</a></h1>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <a href="https://github.com/Grizz1e"><i class='bx bxl-github'></i></a>
-        <a href="https://twitter.com/Grizz1e_"><i class='bx bxl-twitter'></i></a>
-        <a href="https://youtube.com/@YTSFX"><i class='bx bxl-youtube'></i></a>
-        <a href="https://discord.gg/FeJqCgRgxv"><i class='bx bxl-discord-alt'></i></a>
-    </footer>
+    <div class="container">
+        <header class="comic-panel header">
+            <h1>Grizz1e.com</h1>
+            <p class="subtitle">Digital Adventures</p>
+        </header>
 
-    <script src="/script/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-    <script>
-        // Splide
-        new Splide('.splide', {
-            type: 'loop',
-            arrows: false,
-            pagination: false,
-            wheel: true,
-            width: '51vw',
-            speed: 1000,
-            autoplay: true,
-        }).mount();
-    </script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-        particlesJS.load('particles-js', '/assets/particles.json', function () {
-            console.log('callback - particles.js config loaded');
-        });
-    </script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67c5cd72d53a2f1908d12563/1ileal26q';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+        <main class="grid">
+            <!-- Projects will be loaded dynamically -->
+        </main>
+
+        <footer class="comic-panel footer">
+            <p>&copy; 2025 Grizz1e</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

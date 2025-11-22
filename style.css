@@ -1,0 +1,115 @@
+:root {
+    --bg-color: #fdfbf7;
+    --panel-bg: #ffffff;
+    --border-color: #1a1a1a;
+    --accent-1: #ff9f43;
+    /* Pastel Orange */
+    --accent-2: #54a0ff;
+    /* Pastel Blue */
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --border-width: 2px;
+    --shadow-offset: 4px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--bg-color);
+    font-family: 'Comic Neue', cursive;
+    background-image: radial-gradient(#e1e1e1 1px, transparent 1px);
+    background-size: 15px 15px;
+    color: var(--border-color);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    /* Compact width */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comic-panel {
+    background: var(--panel-bg);
+    border: var(--border-width) solid var(--border-color);
+    box-shadow: var(--shadow-offset) var(--shadow-offset) 0 var(--border-color);
+    padding: 15px;
+    border-radius: 4px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.header {
+    text-align: center;
+    background-color: var(--accent-1);
+    transform: rotate(-1deg);
+}
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    margin: 5px 0 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: calc(var(--shadow-offset) + 2px) calc(var(--shadow-offset) + 2px) 0 var(--border-color);
+    background-color: #fffdf0;
+}
+
+.card:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 var(--border-color);
+}
+
+.card h2 {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    border-bottom: 2px dashed var(--accent-2);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: var(--accent-2);
+    transform: rotate(1deg);
+}
+
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
