@@ -16,5 +16,11 @@
         "url": "https://speed.grizz1e.com",
         "icon": "🚀",
         "description": "Test your internet speed."
+    },
+    {
+        "title": "Image Color Picker",
+        "url": "https://picker.grizz1e.com",
+        "icon": "🎨",
+        "description": "Pick colors from images."
     }
 ]
