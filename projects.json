@@ -26,7 +26,13 @@
     {
         "title": "Simple Board",
         "url": "https://board.grizz1e.com",
-        "icon": "📝",
+        "icon": "📌",
         "description": "Simple and fast whiteboard."
+    },
+    {
+        "title": "Drifty Words",
+        "url": "https://driftywords.grizz1e.com",
+        "icon": "📖",
+        "description": "Race against words"
     }
 ]
