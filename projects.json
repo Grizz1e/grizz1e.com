@@ -22,5 +22,11 @@
         "url": "https://picker.grizz1e.com",
         "icon": "🎨",
         "description": "Pick colors from images."
+    },
+    {
+        "title": "Simple Board",
+        "url": "https://board.grizz1e.com",
+        "icon": "📝",
+        "description": "Simple and fast whiteboard."
     }
 ]
