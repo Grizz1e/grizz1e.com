@@ -34,5 +34,11 @@
         "url": "https://driftywords.grizz1e.com",
         "icon": "📖",
         "description": "Race against words"
+    },
+    {
+        "title": "Simple Share",
+        "url": "https://share.grizz1e.com",
+        "icon": "📁",
+        "description": "P2P File Sharing"
     }
 ]
