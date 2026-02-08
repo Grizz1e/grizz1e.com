@@ -26,8 +26,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 600px;
-    /* Compact width */
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -111,5 +110,17 @@ h1 {
 @media (max-width: 500px) {
     .grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
