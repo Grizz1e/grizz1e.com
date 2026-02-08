@@ -52,5 +52,11 @@
         "url": "https://share.grizz1e.com",
         "icon": "📁",
         "description": "P2P File Sharing"
+    },
+    {
+        "title": "Nepali Typing",
+        "url": "https://type.grizz1e.com",
+        "icon": "⌨️",
+        "description": "Easy Nepali Typing"
     }
 ]
